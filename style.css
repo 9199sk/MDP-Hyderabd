@@ -9,14 +9,18 @@ header {
     text-align: center;
     color: white;
 }
+.logh1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15%;
+}
 
 .allimg {
     display: flex;
+    
 }
 
 .img2 {
     margin: auto;
-    float: right;
 
 }
 
@@ -35,6 +39,16 @@ ul {
     padding: 16px;
 
 }
+ a{
+    text-decoration: none;
+    color: inherit;
+    
+
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
 h1{
     margin-top: 15px;
 }
@@ -50,24 +64,26 @@ ul li:hover{
 .loginform {
     justify-content: center;
     text-align: center;
-    width: 15%;
-    height: 300px;
+    width: 16%;
+    border-radius: 10px;
+    height: 330px;
     border: 2px solid rgb(0, 0, 0);
     margin: 10% auto;
-    background-image: linear-gradient(rgb(211, 112, 112),rgb(150, 150, 225));
+    background-image: linear-gradient(rgb(208, 255, 22),rgb(24, 30, 202));
 
 
 }
 
 .data {
-    margin-top: 7%;
-    padding: 4px;
+    margin-top: 12%;
+    padding: 8px;
+    justify-content: center;
 
 }
 
 input,
 button {
-    padding: 4px;
+    padding: 5px;
     margin: 5px;
     width: 80%;
     border-radius: 10px;
@@ -78,9 +94,11 @@ button {
 }
 button:hover{
     cursor: pointer;
-    background-color: rgb(0, 163, 0);
+    background-color: rgb(0, 21, 125);
+    color: white;
 
 }
+
 .footer{
     background-color: rgb(9, 61, 110);
     justify-content: center;
@@ -89,4 +107,9 @@ button:hover{
     text-align: center;
     color: rgb(255, 255, 255);
     display: flex;
+}
+@media only screen and (max-width:800px){
+    .loginform{
+        width: 35%;
+    }
 }
